@@ -1,0 +1,7 @@
+{
+  "aws_profile": "{{env `AWS_PROFILE`}}",
+  "region": "{{env `AWS_REGION`}}",
+  "vpc_id": "{{env `AWS_VPC`}}",
+  "subnet_id": "{{env `AWS_SUBNET`}}",
+  "security_group_id": "{{env `AWS_SECGROUP`}}"
+}
